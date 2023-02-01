@@ -1,3 +1,0 @@
-#!/bin/bash
-echo 'Executing build...';
-web-ext sign --api-key=user:16793191:151 --api-secret=a6fdcb058b3647d2c3f4e9ec59e685ba66af180691cbf8928a335da9f488e13e --ignore-files "build*" "README.md"
