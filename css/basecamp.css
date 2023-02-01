@@ -1,0 +1,72 @@
+html {
+    background: url('img/turtles.png');
+    background-size: cover;
+    background-size: contain;
+    background-color: #0a84b3;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+body > div,
+h1,h2,h3,h4,h5,h6,
+a {
+    text-shadow: none!important;
+}
+.global_links a,
+.announcements_link a,
+div.current_user li > a {
+    color: #fff!important;
+}
+body {
+    background: transparent!important;
+}
+.panel--perma, .panel--project,
+div.sheet,
+div.stack_container > div.sheet.inactive {
+    background: rgba(255,255,255,.8)!important;
+ }
+ div.sheet div.sheet {
+     background: #fff!important;
+ }
+ .thread-entry--no-background {
+     background: transparent!important;
+ }
+ .break > span {
+    border-radius: 34px;
+    padding: 5px 14px !important;
+ }
+ .break > span .comments-balloon {
+     margin-left: -8px;
+ }
+.panel--perma, .panel--project,
+.recording-breadcrumbs {
+    box-shadow: none!important;
+}
+.recordable {
+    background: transparent!important;
+}
+.nav__main {
+    background-color: transparent!important;
+}
+.help-button.app-mobile__hide {
+    display:none!important;
+}
+.nav__bar {
+    background: #fff!important;
+}
+#main-content {
+    margin-top: 20px!important;
+}
+.recording-breadcrumbs {
+    margin-top: 10px!important;
+}
+div#launchbar {
+    background: #fff!important;
+}
+div#launchbar li.menu a.on {
+    color: #000!important;
+}
+div#launchbar li.menu a {
+    border-right: none!important;
+}

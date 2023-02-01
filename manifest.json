@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Gregg's Super Awesome Website Customizer",
+  "version": "1.2.4",
+  "description": "Adds stylez to all my favorite websites",
+  "icons": {
+    "48": "icons/48x48.png",
+    "250": "icons/250x250.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://basecamp.com/*"],
+      "css": ["css/basecamp.css"]
+    },
+    {
+      "matches": ["https://3.basecamp.com/*"],
+      "css": ["css/basecamp3.css"]
+    },
+    {
+      "matches": ["https://app.asana.com/*"],
+      "css": ["css/asana.css"]
+    },
+    {
+      "matches": ["https://onlinebanking.tdbank.com/*"],
+      "js": ["js/td.js"]
+    }
+  ]
+
+}

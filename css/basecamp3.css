@@ -1,0 +1,14 @@
+.btn--primary {
+    background-color: #f92746;
+    border-color: #f92746;
+}
+@media screen and (min-width: 768px) {
+    .card--app {
+        width: 100%;
+        font-size: 1.1em;
+    }
+}
+.recordable--todoset .todolist__permalink, .formatted_content a:not(.unstyled):not(.attachment__toolbar):not([contenteditable="false"]):not([data-trix-attachment]), .formatted_content a .mentionable-person, .chat-line__body a, .decorated, .autolinked {
+    color: #f92746;
+    text-decoration: none;   
+}
